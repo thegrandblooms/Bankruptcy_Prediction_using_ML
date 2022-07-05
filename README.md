@@ -60,7 +60,7 @@ For additional information, contact Blake McMeekin at blakemcme@gmail.com
 ```
 ├── Bankruptcy_Detection
 │   └── data.csv
-├── Graphics
+├── graphics
 ├── Phase 3 Project - Bankruptcy Prediction.pdf
 ├── README.md
 └── Bankruptcy Prediction.ipynb
