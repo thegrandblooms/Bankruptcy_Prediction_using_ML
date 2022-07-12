@@ -28,12 +28,15 @@ For model validation, much of the analysis was built around F1 scores, since acc
 
 ## Findings
 
-Our most accurate model (XGBoost) had a 98.5% accuracy, while the model with the highest recall (identifying the highest number of bankrupt companies) successfully flagged more than 80% of bankrupt companies (Logistic Regression.) 
+Logistic Regression creates Inclusive predictions: 
+Marks ~80% of bankrupt companies in unseen data; marks represent about a *1 in 5 chance of bankruptcy. Useful for early warnings.
 
-The three most important predictive features for bankruptcy were the features:
-- “Fixed Assets to Assets” - Strong positive correlation
-- “Accounts Receivable Turnover” - Strong negative correlation
-- “Interest-bearing debt interest rate” - Strong negative correlation
+XGBoost creates Precise predictions: 
+Marks ~50% of bankrupt companies in unseen data; marks represent about a *50/50 chance of bankruptcy. Useful for second-stage confirmation. Accuracy of 98.6%.
+
+- Financial data can now be fed to our model to score organizations for solvency and identify complex risks that might be missed by humans.
+- Different budgeting plans could be scored by feeding in predicted financial data and assessing model confidence.
+- Early identification of affordable assets or IP, identifying and consulting at-risk companies, avoiding dangerous partnerships
 
 ## Conclusions
 
