@@ -1,10 +1,10 @@
 ![Bankruptcy Header](https://github.com/thegrandblooms/dsc-phase-3-project/blob/b7046b303342de6699e35c9a76e1a2f39df47528/graphics/DALL%C2%B7E-2022-07-04-21.jpg)
-# Bankruptcy Prediction - Flatiron Data Science, Phase 3 Project
+# Bankruptcy Prediction
 Author: Blake McMeekin
 
 ## Overview
 
-This is the Q3 project for Flatiron School, with the main focus being Logistic regression, XGBoost, and Random Forest classifiers being incorporated into a professional level analysis and presentation. The goal was to create a predictive model to interpret 95 different features of real financial data from the Taiwan stock exchange to determine which companies were most likely to be financially insolvent. The resulting XGBoost model performed with 98.5% accuracy on unseen test data.
+The goal of this project was to create a predictive model to interpret 95 different features of financial data from the Taiwan stock exchange to determine which companies were most likely to be financially insolvent. The resulting XGBoost model performed with 98.5% accuracy on unseen test data.
 
 Additional features of this notebook include balancing data with a significant class imbalance using SMOTE oversampling, and hyperparameter tuning with cross-validation.
 
