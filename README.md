@@ -1,6 +1,5 @@
 ![Bankruptcy Header](https://github.com/thegrandblooms/dsc-phase-3-project/blob/b7046b303342de6699e35c9a76e1a2f39df47528/graphics/DALL%C2%B7E-2022-07-04-21.jpg)
 # Bankruptcy Prediction
-Author: Blake McMeekin
 
 ## Overview
 
